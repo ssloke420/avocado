@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+#title{
+  font-size: 50pt;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5%;
+  background-color: greenyellow;
+}
+@keyframes rgb{
+    from{background-color: greenyellow;}
+    to{background-color: green;}
+  }
+@keyframes fade{
+  from{opacity: 0;}
+  to{opacity: 100;}
+}
+#title:hover{
+  animation-name:fade;
+  animation-duration:4s;
+  animation-name:rgb;
+  animation-duration:1.5s;
+  
+}
+body{
+  background-color: tan;
+  text-align: center;
+}
+h1{
+  color: darkgreen;
+  background-color:greenyellow ;
+}
+a{
+  text-decoration: none;
+  font-family:cursive;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: darkgreen;
+  font-family:cursive;
+  transition-duration:2s;
+}
+#good{
+  font-style:italic;
+}
+#gooder{
+  font-weight:690;
+}
+#goodest{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:20pt;
+}
+h2{
+  text-align:left;
+  color:green;
+  font-weight:700;
+  font-size:25pt
+  transition:2s;
+}
+img:hover{
+  animation-name:fade;
+  animation-duration:5s;
+}
